@@ -1,0 +1,29 @@
+*,::before , ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px ;
+    
+}
+
+.todos{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+}
+
+
+.addTodo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
